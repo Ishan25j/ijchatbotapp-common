@@ -14,3 +14,4 @@ export * from './events/events';
 export * from './events/new-chatbot-query';
 export * from './events/chatbot-response';
 export * from './events/report-response';
+export * from './events/types/reponse-status';

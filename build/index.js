@@ -34,3 +34,4 @@ __exportStar(require("./events/new-chatbot-query"), exports);
 __exportStar(require("./events/chatbot-response"), exports);
 // * export events/report-response
 __exportStar(require("./events/report-response"), exports);
+__exportStar(require("./events/types/reponse-status"), exports);
