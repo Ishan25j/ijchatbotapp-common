@@ -1,4 +1,5 @@
 import { Events } from "./events";
+import { ResponseStatus } from "./types/reponse-status";
 export interface ChatbotResponse {
     subject: Events.ChatbotResponse;
     data: {
@@ -6,5 +7,6 @@ export interface ChatbotResponse {
         textId: string;
         responseId: string;
         response: string;
+        status: ResponseStatus.Responded;
     };
 }

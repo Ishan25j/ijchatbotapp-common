@@ -1,4 +1,5 @@
 import { Events } from "./events";
+import { ResponseStatus } from "./types/reponse-status";
 export interface ReportResponse {
     subject: Events.ReportResponse;
     data: {
@@ -6,5 +7,6 @@ export interface ReportResponse {
         textId: string;
         responseId: string;
         responseRequired: string;
+        status: ResponseStatus.Reported;
     };
 }
