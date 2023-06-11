@@ -24,3 +24,5 @@ export * from './events/chatbot-response';
 
 // * export events/report-response
 export * from './events/report-response';
+
+export * from './events/types/reponse-status';
