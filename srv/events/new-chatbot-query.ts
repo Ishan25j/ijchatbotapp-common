@@ -1,5 +1,5 @@
 import { Events } from "./events";
-import { Status } from "./types/status-type";
+import { ResponseStatus } from "./types/reponse-status";
 
 export interface ChatbotQuery {
     subject: Events.ChatbotQuery;
@@ -7,5 +7,6 @@ export interface ChatbotQuery {
         userId: string;
         textId: string;
         text: string;
+        status: ResponseStatus.Query
     }
 }
