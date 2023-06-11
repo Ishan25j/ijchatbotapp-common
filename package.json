@@ -3,6 +3,9 @@
     "version": "1.0.3",
     "description": "",
     "main": "index.js",
+    "files": [
+        "build/**/*"
+    ],
     "scripts": {
         "clean": "del ./build/*",
         "build": "npm run clean && tsc",
